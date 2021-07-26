@@ -1,0 +1,35 @@
+{
+  "name": "mafin/rabbitmq-api",
+  "type": "library",
+  "license": "MIT",
+  "autoload": {
+    "psr-4": {
+      "Mafin\\RabbitmqApi\\": "src/"
+    }
+  },
+  "authors": [
+    {
+      "name": "v.kuzmenko",
+      "email": "mr.vladkuz@gmail.com"
+    }
+  ],
+  "minimum-stability": "stable",
+  "require": {
+    "php": "^7.4",
+    "ext-json": "*",
+    "mafin/base-api-client": "^2.0",
+    "mafin/dto": "dev-master",
+    "myclabs/php-enum": "^1.8",
+    "psr/log": "^1.1"
+  },
+  "repositories": [
+    {
+      "type": "git",
+      "url": "https://gitlab.mafin.io/php-vendors/base-api-client.git"
+    },
+    {
+      "type": "git",
+      "url": "https://gitlab.mafin.io/php-vendors/dto.git"
+    }
+  ]
+}
