@@ -8,4 +8,5 @@ use Mafin\DTO\CustomizableDataTransferObject;
 
 abstract class BaseDataTransferObject extends CustomizableDataTransferObject
 {
+    protected bool $ignoreMissing = true;
 }

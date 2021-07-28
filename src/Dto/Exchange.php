@@ -8,7 +8,6 @@ use Mafin\RabbitmqApi\Enums\TypeEnum;
 
 class Exchange extends BaseDataTransferObject
 {
-    protected bool $ignoreMissing = true;
     public string $name;
     public TypeEnum $type;
     public bool $auto_delete;
