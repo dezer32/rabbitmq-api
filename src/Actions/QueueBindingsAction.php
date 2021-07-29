@@ -7,7 +7,6 @@ namespace Mafin\RabbitmqApi\Actions;
 use GuzzleHttp\Psr7\Response;
 use Mafin\Internal\Interfaces\HttpActionInterface;
 use Mafin\RabbitmqApi\Dto\Bindings;
-use Mafin\RabbitmqApi\Dto\QueueBindingsRequest;
 use Mafin\RabbitmqApi\Dto\QueueRequest;
 
 class QueueBindingsAction extends BaseHttpAction

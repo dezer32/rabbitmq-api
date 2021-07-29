@@ -31,7 +31,7 @@ class ExchangeAction extends BaseHttpAction
 
     public function mapError(Throwable $e)
     {
-        throw new CantFindDeclare(sprintf('Exchange %s can not find.', $this->request->getName()));
+        throw new CantFindDeclare(sprintf('Exchange %s can not find.', $this->request->getName()), $e);
     }
 
     public function getMethod(): string

@@ -31,7 +31,7 @@ class QueueAction extends BaseHttpAction
 
     public function mapError(Throwable $e)
     {
-        throw new CantFindDeclare(sprintf('Queue %s can not find.', $this->request->getName()));
+        throw new CantFindDeclare(sprintf('Queue %s can not find.', $this->request->getName()), $e);
     }
 
     public function getMethod(): string
